@@ -24,16 +24,16 @@ When starting a new feature:
 ### 3.  From the `master` branch, checkout a new feature branch and do your work locally in it
 `git checkout -b your_feature_branch_name` -> creates new branch from current branch (with commits from current branch)<br/>
 
-Also:<br/>
-`git checkout other_branch_name` -> switches from your current branch to another branch<br/>
-`git branch` -> shows you which branch you're currently working in<br/>
+Related:<br/>
+* `git checkout other_branch_name` -> switches from your current branch to another branch<br/>
+* `git branch` -> shows you which branch you're currently working in<br/>
 
 ### 4.  Check your changes; determine out what you want to include in the commit
 `git status` -> will show all files changed<br/>
 `git diff` -> will show specific lines changed<br/>
 
 ### 5.  Add and commit your changes within your development/feature branch
-`git add specific_files` or `git add .` (for all files) -> select files to include<br/>
+`git add specific_files` OR `git add .` (for all files) -> select files to include<br/>
 `git commit -m 'your_message_in_here'` -> to include a helpful message with your commit<br/>
 (if you make a mistake, you can `git reset HEAD~` to revert)<br/>
 
